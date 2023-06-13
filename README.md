@@ -1,8 +1,14 @@
-# Facial_Detection
-# Drowsiness Detection System using OpenCV and Tensorflow
+# Drowsiness Detection System
 
-The project is used to detect drowsiness in drivers and alerts them with an alarm if the system finds the driver drowsy.
-The system considers a person drowsy if their eyes remain shut for a threshold amount of time and triggers an alarm to wake the person up.
+### Overview:
+* A Computer Vision tool to detect drowsiness in drivers. 
+* The system is alerted if the driver is found sleepy/drowsy. 
+* The driver is determined sleepy/drowsy if their eyes remain shut for a small threshold amount of time which triggers an alarm to wake the driver up.
+* Initially used IMutils for facial detection which resulted in incorrect facial landmark detection multiple times.
+* Haarcascades facial landmark detection was used.
 
-Imutils was used the first time to detect the facial landmarks on a person.
-After the Imutils failed to detect the facial landmarks clearly, haarcascades were used.
+### Resources:  
+**Python**: 3.6.x  
+**Packages**: Numpy, IMutils, OpenCV, TensorFlow, Argparse, Winsound
+
+
